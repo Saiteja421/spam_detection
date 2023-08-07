@@ -15,7 +15,6 @@ $$P(word_i|spam) = \frac{X_i + \alpha}{N + \alpha \cdot d}$$ where $X_i$ is repr
 We have seamlessly merged the frontend and Python backend components by harnessing the power of Flask, a cutting-edge micro web framework.
 
 ## Preview
-
----
-http://bablu123.pythonanywhere.com/
----
+   ```
+   http://bablu123.pythonanywhere.com/
+   ```

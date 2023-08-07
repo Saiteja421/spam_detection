@@ -10,3 +10,9 @@ $$P(spam|word_1, word_2,\dots , word_n) \propto P(spam)\cdot \prod_{i = 1}^{n}P(
 $$P(non\ spam|word_1,word_2,\dots , word_n) \propto P(non\ spam)\cdot \prod_{i = 1}^{n}P(word_i|non\ spam)$$
 $$P(word_i|spam) = \frac{X_i + \alpha}{N + \alpha \cdot d}$$ where $X_i$ is represents the frequency of $word_i$ in a spam message, $\alpha$ is the smoothing parameter (we'll set it to 1), $N$ is the number of words in the spam set, $d$ is the number of words in our vocabulary. The same is applied when we condition on "non-spam" messages.
 
+##Brief
+We have seamlessly merged the frontend and Python backend components by harnessing the power of Flask, a cutting-edge micro web framework.
+##Preview
+---
+http://bablu123.pythonanywhere.com/
+---
